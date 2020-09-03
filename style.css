@@ -1,0 +1,90 @@
+.card {
+  width: 200px;
+  height: auto;
+  border: 2px solid black;
+  margin: 20px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 30px;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-image {
+  border-bottom: solid 2px red;
+}
+
+.input {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.search {
+  border: 20px solid black;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2018/07/09/16/59/clouds-3526558_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+}
+
+.heading {
+  color: white;
+}
+
+.material-icons {
+  color: black;
+}
+
+.btn {
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(71, 67, 67);
+  justify-content: center;
+  align-items: center;
+  margin-top: 45vh;
+  height: 30vh;
+  width: 100%;
+}
+
+.supported {
+  margin: 0;
+}
+
+.date {
+  margin-left: 20px;
+}
+.city {
+  margin-left: 20px;
+}
+
+.notFoundImage {
+  background-color: rgb(158, 161, 206);
+  border-radius: 30%;
+  margin-top: 20px;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: #fff;
+  border-radius: 50%;
+}
